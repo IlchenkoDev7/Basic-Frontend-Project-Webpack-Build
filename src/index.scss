@@ -1,3 +1,12 @@
-.container {
-    background-color: beige;
-}
+@import 
+    './styles/normalize',
+    './styles/fonts',
+    './styles/mixins',
+    './styles/media',
+    './styles/variables',
+    './styles/utils',
+    './styles/globals';
+
+@import 
+    './styles/index-styles/section',
+    './styles/index-styles/made-info';

@@ -7,7 +7,9 @@
     "start": "npx webpack serve",
     "build-dev": "npx webpack",
     "build-prod": "npx webpack --node-env=production",
-    "clear-dist": "rm -rf dist"
+    "clear-dist": "rm -rf dist",
+    "add-page": "node src/scripts/client-scripts/addNewPage.js",
+    "delete-page": "node src/scripts/client-scripts/deletePage.js"
   },
   "keywords": [],
   "author": "",
@@ -41,6 +43,8 @@
     "webpack-dev-server": "^5.0.4"
   },
   "dependencies": {
+    "acorn": "^8.11.3",
+    "escodegen": "^2.1.0",
     "style-loader": "^4.0.0"
   }
 }

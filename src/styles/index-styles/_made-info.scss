@@ -1,0 +1,7 @@
+.made-info {
+    height: 100vh;
+    @include flex-center;
+    flex-direction: column;
+
+    @include fluid-text(25, 20)
+}
